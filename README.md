@@ -1,2 +1,2 @@
 # prog-web-mobile
-Introduction to web mobile programming 
+Main branch for Web and Mobile activties
