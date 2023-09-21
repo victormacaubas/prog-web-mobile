@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: moccasin;
   }
   
   h1 {
@@ -39,8 +39,7 @@ body {
     font-style: oblique;
   }
   
-  /* Change the link color on hover */
   li a:hover {
-    background-color: #555;
+    background-color: lightblue;
     color: white;
   }
