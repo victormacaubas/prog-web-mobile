@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #FFC0CB, #FF69B4);
+    /* Fundo degradê de rosa */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+#randomImage {
+    max-width: 100%;
+
+    display: block;
+}
+
+.round-button {
+    background-color: #FF69B4;
+    color: rgb(0, 0, 0);
+    border: 2px groove black;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
+    transform: translate(-50%, -50%);
+    transition: background-color 0.3s;
+    /* Adiciona transição de cor de fundo */
+}
+
+.round-button:hover {
+    background-color: #FF1493;
+    /* Muda a cor de fundo ao passar o mouse */
+}
