@@ -44,3 +44,11 @@
 .navbarDark {
     background: #000;
 }
+
+.row-mt-3 {
+    text-align: justify;
+}
+
+.col-lg-6 {
+    text-align: justify;
+}
