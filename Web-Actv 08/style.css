@@ -3,27 +3,31 @@
     margin-top: 4rem;
     padding-top: 4rem;
 }
+
 .section:last-of-type {
     padding-bottom: 4rem;
 }
-    
+
 /* hero background image */
 .bgimage {
-    height:100vh;
-    background: url('images/redsky.jpg');
-    background-size:cover;
-    position:relative;
+    height: 100vh;
+    background: url('images/astronaut.png');
+    background-size: cover;
+    position: relative;
     padding: 0;
     margin: 0;
 }
+
 /* text css above hero image*/
 .hero_title {
     padding-top: 10rem;
     font-size: 4.5rem;
 }
+
 .hero_desc {
     font-size: 2rem;
 }
+
 .hero_text {
     text-align: center;
     position: absolute;
@@ -31,4 +35,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.image_about {
+    width: 100%;
+}
+
+.navbarDark {
+    background: #000;
 }
